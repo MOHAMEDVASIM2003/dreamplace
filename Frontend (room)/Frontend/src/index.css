@@ -1,0 +1,12 @@
+/* src/index.css */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./assets/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+  font-weight: 700;
+}
