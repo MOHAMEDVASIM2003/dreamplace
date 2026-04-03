@@ -1,10 +1,11 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import express , { Request, Response } from "express";
 import { connectDB } from "./utils/mongodb";
 import { seedDatabase } from "./utils/seed";
 import contactRouter from "./api/routers/Contactrouters";
 import cors from "cors";
-import dotenv from "dotenv";
-dotenv.config();
 
 const app = express();
 const PORT = 3002;
